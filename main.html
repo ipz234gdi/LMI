@@ -32,7 +32,7 @@
                 </a>
 
                 <!-- Collapse -->
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <nav class="collapse navbar-collapse" id="navbarCollapse">
                     <!-- Nav -->
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item dropdown">
@@ -85,7 +85,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -108,7 +108,8 @@
         </div>
 
         <!-- CATEGORIES -->
-        <div>
+        <section aria-labelledby="categories-heading">
+            <h2 id="categories-heading" class="sr-hidden">Categories</h2>
             <div class="row no-gutters d-block d-lg-flex">
 
                 <!-- Item -->
@@ -173,10 +174,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- FEATURES -->
-        <div class="pt-7">
+        <section class="pt-7" aria-labelledby="features-heading">
+            <h2 id="features-heading" class="sr-hidden">Features</h2>
             <div class="container">
                 <div class="row pb-7 border-bottom">
                     <div class="col-12 col-md-6 col-lg-3">
@@ -271,10 +273,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- BEST PICKS -->
-        <div class="pt-12">
+        <section class="pt-12" aria-labelledby="bestpicks-heading">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
@@ -285,7 +287,7 @@
                         </h3>
 
                         <!-- Heading -->
-                        <h2 class="mb-4 h2BestPicks">Best Picks 2020</h2>
+                        <h2 class="mb-4 h2BestPicks" id="bestpicks-heading">Best Picks 2020</h2>
 
                         <!-- Subheading -->
                         <p class="mb-10 text-gray-500">
@@ -378,10 +380,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- TOP SELLERS -->
-        <div class="py-12 topSeller">
+        <section class="py-12 topSeller">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8 col-xl-6">
@@ -809,10 +811,10 @@
                 </div>
 
             </div>
-        </div>
+        </section>
 
         <!-- REVIEWS -->
-        <div class="py-12">
+        <section class="py-12 reviews">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
@@ -874,19 +876,20 @@
                                 </div>
 
                                 <!-- Blockquote -->
-                                <div class="mb-0">
-                                    <p class="text-muted">
-                                        These sneakers are just what I needed! they have a mixture of fabrics, and
-                                        provide
-                                        fantastic heel support. The underside however, has a hard wearing sole which
-                                        becomes
-                                        slippery in the rain.
-                                    </p>
-                                    <div class="font-size-xs text-muted">
-                                        Logan Edwards,
-                                        <time datetime="2019-06-01">01 Jun 2019</time>
-                                    </div>
-                                </div>
+                                <figure class="mb-0">
+                                    <blockquote class="blockquote mb-2">
+                                        <p class="text-muted">
+                                            These sneakers are just what I needed! they have a mixture of fabrics, and
+                                            provide
+                                            fantastic heel support. The underside however, has a hard wearing sole which
+                                            becomes
+                                            slippery in the rain.
+                                        </p>
+                                    </blockquote>
+                                    <figcaption class="font-size-xs text-muted">
+                                        Logan Edwards, <time datetime="2019-06-01">01 Jun 2019</time>
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -938,18 +941,19 @@
                                 </div>
 
                                 <!-- Blockquote -->
-                                <div class="mb-0">
-                                    <p class="text-muted">
-                                        The print on the dress is just what I've been looking for. It has several layers
-                                        and
-                                        goes from near transparent to opaque and then a dark colour. The cut is very
-                                        complementary as well, loose and functional but can be dressed up for events.
-                                    </p>
-                                    <div class="font-size-xs text-muted">
-                                        Jane Jefferson,
-                                        <time datetime="2019-05-29">29 May 2019</time>
-                                    </div>
-                                </div>
+                                <figure class="mb-0">
+                                    <blockquote class="blockquote mb-2">
+                                        <p class="text-muted">
+                                            The print on the dress is just what I've been looking for. It has several layers
+                                            and
+                                            goes from near transparent to opaque and then a dark colour. The cut is very
+                                            complementary as well, loose and functional but can be dressed up for events.
+                                        </p>
+                                    </blockquote>
+                                    <figcaption class="font-size-xs text-muted">
+                                        Jane Jefferson, <time datetime="2019-05-29">29 May 2019</time>
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
 
@@ -1001,27 +1005,28 @@
                                 </div>
 
                                 <!-- Blockquote -->
-                                <div class="mb-0">
-                                    <p class="text-muted">
-                                        The t-shirt wasn't as oversized as I was expecting. It pulls around the arms,
-                                        and
-                                        bunches up around the waist. I've noticed the colour beginning to fade to a
-                                        grey.
-                                    </p>
-                                    <div class="font-size-xs text-muted">
-                                        Darrell Baker,
-                                        <time datetime="2019-05-18">18 May 2019</time>
-                                    </div>
-                                </div>
+                                <figure class="mb-0">
+                                    <blockquote class="blockquote mb-2">
+                                        <p class="text-muted">
+                                            The t-shirt wasn't as oversized as I was expecting. It pulls around the arms,
+                                            and
+                                            bunches up around the waist. I've noticed the colour beginning to fade to a
+                                            grey.
+                                        </p>
+                                    </blockquote>
+                                    <figcaption class="font-size-xs text-muted">
+                                        Darrell Baker, <time datetime="2019-05-18">18 May 2019</time>
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- BRANDS -->
-        <div class="py-12 bg-light">
+        <section class="py-12 bg-light brands">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -1170,7 +1175,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- FOOTER -->
     </main>
