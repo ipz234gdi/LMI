@@ -150,7 +150,7 @@
 
             <label for="email">Email Address</label>
             <div class="form-group">
-              <input type="text" id="email" class="form-control" autocomplete="off" required>
+              <input type="text" id="email" class="form-control" autocomplete="off" >
             </div>
 
             <div class="custom-control custom-checkbox form-group">
@@ -158,9 +158,10 @@
               <label class="custom-control-label signup" for="signup">Signup to our newsletter</label>
             </div>
 
-            <p>Please indicate your shipping option preferences by selecting the relevant option</p>
+            <p id="shipping-intro">Please indicate your shipping option preferences by selecting the relevant option</p>
 
-            <div class=" form-group">
+            <fieldset class="form-group" aria-labelledby="shipping-label">
+              <legend id="shipping-label" class="heading-xxs mb-2">Shipping options</legend>
               <div class="custom-control custom-radio">
                 <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadio1">Standard 10 to 14 days</label>
@@ -174,7 +175,7 @@
                 <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadio3">3 workings days</label>
               </div>
-            </div>
+            </fieldset>
 
             <p>By creating an account, you acknowledge that you're aware that your personal data will be used in line with our <a href="#">Privacy Policy</a>. View our <a href="#">Customer Data Promise</a> for more information.</p>
 
